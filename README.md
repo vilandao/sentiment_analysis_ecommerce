@@ -42,7 +42,7 @@ Below are some of the findings on the Women's ecommerce dataset:
 * The above wordcloud showes the most common words in positive reviews. Words such as top, dress, love, look, color, perfect, comfortable, beautiful, flattering appears more often, which makes sense since these are the words that imply positive sentiment.
 
 ### Modeling
-4 different machine learning model were used and compared to create a model that predicts whether or not a customer would recommend a purchased item of 
+4 different machine learning models were used and compared to create a model that predicts whether or not a customer would recommend a purchased item of 
 clothing based solely on the customer's written review.
 
 The best performed model is Random Forest Classifier, with a accuracy score of about 86%. The next best model is Logistic Regression. In term of timing, Random Forest took the most time to execute. A lot of the time, it's the trade off between time and accuracy. In this case, since Random forest provided a significant boost in model performance, it's the best model out of the 4 that were used.
